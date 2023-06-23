@@ -1,10 +1,7 @@
-from exercises import ex1
+from exercises import ex13
 
 
 def main():
-    print('ding dong')
-    ex1.ex1()
-
-
+    ex13.frame_it(["Hello", "World", "in", "a", "frame"])
 if __name__ == '__main__':
     main()
